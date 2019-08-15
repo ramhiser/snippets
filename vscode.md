@@ -11,7 +11,7 @@ Source: https://www.brcline.com/blog/force-vscode-open-files-new-tab
 
 ```json
 {
-  "workbench.editor.enablePreview": false
+  "workbench.editor.enablePreview": false,
 }
 ```
 
@@ -21,6 +21,16 @@ Source: https://stackoverflow.com/a/53940610/234233
 
 ```json
 {
-  "python.pythonPath": "/path/to/your/venv/bin/python"
+  "python.pythonPath": "/path/to/your/venv/bin/python",
+}
+```
+
+## Add Trailing Newline
+
+Source: https://github.com/Microsoft/vscode/issues/1666#issuecomment-300922764
+
+```json
+{
+  ""files.insertFinalNewline": true,
 }
 ```
